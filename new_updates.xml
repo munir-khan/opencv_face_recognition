@@ -1,0 +1,14 @@
+<?xml version="1.0" ?><root>
+    <name search="NewValue TTT: write">
+    <version id="1.0.0">
+        <value>myVal</value>
+        <method>myMethod</method>
+    </version>
+</name>
+<name search="NewValue TTT: write">
+    <version id="2.0.0">
+        <value>myVal</value>
+        <method>myMethod</method>
+    </version>
+</name>
+</root>

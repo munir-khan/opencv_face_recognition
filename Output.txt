@@ -1,0 +1,12 @@
+interface Port-channel10
+interface GigabitEthernet0/0
+ description ** Uplink to C1 **
+interface GigabitEthernet0/1
+ description ** Uplink to C2 **
+ channel-group 10 mode auto
+interface GigabitEthernet0/2
+ description ** Downlink to NetAuto **
+interface GigabitEthernet0/3
+ channel-group 10 mode auto
+interface GigabitEthernet1/0
+interface GigabitEthernet1/1

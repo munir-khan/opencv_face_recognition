@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Artists>
+    <Singer name="Britney">
+        <Albums>7</Albums>
+        <Country>USA</Country>
+        <LastSingle>
+               Piece of Me
+              <Year>2011</Year>
+       </LastSingle>
+    </Singer>
+    <Singer name="Justin">
+        <Albums>8</Albums>
+        <Country>USA</Country>
+        <LastSingle> Rock Your Body
+          <Year>2004</Year>
+       </LastSingle>
+    </Singer>
+</Artists>

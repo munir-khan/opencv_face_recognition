@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <xssample>
+    <xsfinal>
+      <xsid/>
+    </xsfinal>
+    <xsnew>
+      <xsmaxlength/>
+    </xsnew>
+  </xssample>
+  <xssample name="id">
+    <id>1</id>
+    <value>10</value>
+  </xssample>
+  <xssample name="value">
+    <id>1</id>
+    <value>10</value>
+  </xssample>
+  <xssample name="id">
+    <id>2</id>
+    <value>20</value>
+  </xssample>
+  <xssample name="value">
+    <id>2</id>
+    <value>20</value>
+  </xssample>
+</root>
