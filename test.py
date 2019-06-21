@@ -3047,6 +3047,20 @@ import random
 # # print(answers)
 # print(response[t]['text'])
 
+# To extract the rows split by ,
+# import pandas as pd
+#
+# data = [
+#     'twitter.com/dog_rates/status/892420643555336193/photo/1',
+#     'www.gofundme.com/3yd6y1c,twitter.com/dog_rates/status/878281511006478336/photo/1',
+#     'm.facebook.com/story.php?story_fbid=1888712391349242&id=1506300642923754&refsrc=ht.co%2FURVffYPPjY&_rdr,twitter.com/dog_rates/status/812503143955202048/photo/1,twitter.com/dog_rates/status/812503143955202048/photo/1',
+#     'www.gofundme.com/sams-smile,twitter.com/dog_rates/status/810984652412424192/photo/1,twitter.com/dog_rates/status/709901256215666688/photo/1,twitter.com/dog_rates/status/709901256215666688/photo/1,twitter.com/dog_rates/status/709901256215666688/photo/1,twitter.com/dog_rates/status/709901256215666688/photo/1',
+#     'twitter.com/dog_rates/status/888804989199671297/photo/1,twitter.com/dog_rates/status/888804989199671297/photo/1'
+# ]
+#
+# df=pd.DataFrame({'url':data})
+# df['res'] = df['url'].str.split(',').str[-1]
+# print(df['res'])
 #
 # def myGen(n):
 #     yield n
