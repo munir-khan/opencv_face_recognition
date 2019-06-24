@@ -3061,6 +3061,26 @@ import random
 # df=pd.DataFrame({'url':data})
 # df['res'] = df['url'].str.split(',').str[-1]
 # print(df['res'])
+
+class Parent:
+
+ def __init__(self):
+  self.foo = "Parent Foo"
+
+
+class Child(Parent):
+
+ def __init__(self):
+  Parent.__init__(self)
+
+ def set_foo(self, new_foo):
+  self.foo = new_foo
+
+
+child = Child()
+print(child.foo)
+child.set_foo("New Foo")
+print(child.foo)
 #
 # def myGen(n):
 #     yield n
@@ -3091,3 +3111,4 @@ def pyfunc(r):
  for x in range(r):
   print(' ' * (r - x - 1) + '*' * (2 * x + 1))
 pyfunc(9)
+
