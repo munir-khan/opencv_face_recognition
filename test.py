@@ -3081,3 +3081,34 @@ child = Child()
 print(child.foo)
 child.set_foo("New Foo")
 print(child.foo)
+#
+# def myGen(n):
+#     yield n
+#     yield n + 1
+#
+# # g = myGen(6)
+# #
+# # print(next(g))
+# # print(next(g))
+# # print(next(g))
+#
+#
+# for n in myGen(6):
+#  print(n)
+
+# import array as arr
+# a=arr.array('d', [1.1 , 2.1 ,3.1] )
+# a.append(3.4)
+# print(a)
+# a.extend([4.5,6.3,6.8])
+# print(a)
+# a.insert(2,3.8)
+# print(a)
+#
+
+# pyramid testing
+def pyfunc(r):
+ for x in range(r):
+  print(' ' * (r - x - 1) + '*' * (2 * x + 1))
+pyfunc(9)
+
